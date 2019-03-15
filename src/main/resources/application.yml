@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  redis:
+    port: 6379
+    url: 127.0.0.1
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 2ms
+    timeout: 0ms
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
