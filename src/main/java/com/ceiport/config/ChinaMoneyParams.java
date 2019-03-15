@@ -12,17 +12,16 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:request-params.properties")
 @ConfigurationProperties(prefix = "china")
 public class ChinaMoneyParams {
-
-    @Value("{china.typeCode}")
+    @Value("${china.typeCode}")
     private String typeCode;
 
-    @Value("{china.isNewTab}")
+    @Value("${china.isNewTab}")
     private String isNewTab;
 
-    @Value("{china.limit}")
+    @Value("${china.limit}")
     private String limit;
 
-    @Value("{china.timeIn}")
+    @Value("${china.timeIn}")
     private String timeIn;
 
     public String getTypeCode() {

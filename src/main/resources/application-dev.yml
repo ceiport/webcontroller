@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.jdbc.Driver
+    dbcp2:
+      max-idle: 8
+      validation-query: SELECT 'x'
+      max-wait-millis: 1000
+      max-total: 8
