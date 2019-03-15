@@ -1,4 +1,4 @@
-package com.ceiport.model;
+package com.ceiport.crawling.model;
 
 /**
  * 中国货币网原始数据

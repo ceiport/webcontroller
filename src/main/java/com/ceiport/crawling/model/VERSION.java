@@ -1,4 +1,4 @@
-package com.ceiport.model;
+package com.ceiport.crawling.model;
 
 public class VERSION {
     private String version;

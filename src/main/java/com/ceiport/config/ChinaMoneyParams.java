@@ -14,13 +14,10 @@ import org.springframework.context.annotation.PropertySource;
 public class ChinaMoneyParams {
     @Value("${china.typeCode}")
     private String typeCode;
-
     @Value("${china.isNewTab}")
     private String isNewTab;
-
     @Value("${china.limit}")
     private String limit;
-
     @Value("${china.timeIn}")
     private String timeIn;
 

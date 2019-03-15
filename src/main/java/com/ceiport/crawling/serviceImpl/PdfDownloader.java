@@ -1,6 +1,6 @@
-package com.ceiport.serviceImpl;
+package com.ceiport.crawling.serviceImpl;
 
-import com.ceiport.service.IDownloader;
+import com.ceiport.crawling.service.IDownloader;
 
 /**
  * PDF文件下载器

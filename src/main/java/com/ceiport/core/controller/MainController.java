@@ -1,4 +1,4 @@
-package com.ceiport.controller;
+package com.ceiport.core.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

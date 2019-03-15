@@ -1,4 +1,4 @@
-package com.ceiport.service;
+package com.ceiport.crawling.service;
 
 import org.springframework.stereotype.Service;
 
